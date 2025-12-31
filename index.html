@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Year 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="music" src="newyear.mp3" loop></audio>
+<canvas id="fireworks"></canvas>
+
+<div class="overlay">
+  <div id="main-ui">
+    <h1 class="title">HAPPY NEW YEAR</h1>
+    <div id="year-display">2026</div>
+    <div id="click-btn">Click<br>Here!</div>
+  </div>
+
+  <div id="new-year-2026" class="hidden-message">
+     <h1 class="final-title">HAPPY NEW YEAR</h1>
+     <h2 id="glowing-year">2026</h2>
+  </div>
+
+  <div id="note-trigger">📜 Open Note</div>
+</div>
+
+<div id="popup">
+  <div class="bunny-note">
+    <div class="note-header">
+      <div class="header-row">
+        <span>From: <span class="input-line">Aditya</span></span>
+        <span>Date: <span class="input-line">01-01-26</span></span>
+      </div>
+    </div>
+    <div class="note-body">
+      <p></p>
+      <div class="writing-lines">
+        <span>May your New Year bring</span><span>more blessings to you and your family</span><span>Thank you for being part of my 2025</span><span>Happy!! Happy New year!!</span>
+      </div>
+    </div>
+    <button id="close-popup">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
